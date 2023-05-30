@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/iamgeView1"
+            android:background="#999">
+        </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#a00"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$74"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp">
+        </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Per Night"
+        android:textSize="13sp"
+        android:textColor="#fff">
+    </TextView>
+</LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut ante eu ligula bibendum suscipit eu vel lorem. Mauris luctus dui ante, vel euismod nisl rhoncus in. Etiam ut dolor facilisis, aliquet odio sit amet, ornare metus. Phasellus eu dolor sit amet dolor sagittis tincidunt sit amet sed nibh. Aliquam scelerisque lacus dui, quis pulvinar velit tincidunt ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce at metus viverra metus pulvinar eleifend.
+Fusce elementum eleifend turpis vel malesuada. Ut hendrerit velit elit, at pretium est molestie a. Fusce velit eros, cursus convallis auctor non, tempus pharetra nunc. Sed facilisis vitae sapien in semper. Curabitur eget enim placerat, suscipit lectus non, ultricies quam. Nulla ultrices interdum elementum. Suspendisse tempor dapibus turpis ut consequat.">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:textColor="#ffffff"
+        android:text="Book Now">
+
+    </Button>
+</LinearLayout>
